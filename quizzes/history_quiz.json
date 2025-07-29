@@ -1,0 +1,27 @@
+{
+  "quiz": [
+    {
+      "question": "In which year did World War II end?",
+      "answer": "1945",
+      "options": ["1944", "1945", "1946", "1947"]
+    },
+    {
+      "question": "Who was the first person to walk on the moon?",
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "Which ancient wonder of the world was located in Alexandria?",
+      "answer": "The Lighthouse of Alexandria",
+      "options": ["The Colossus of Rhodes", "The Lighthouse of Alexandria", "The Hanging Gardens", "The Mausoleum"]
+    },
+    {
+      "question": "What year did the Berlin Wall fall?",
+      "answer": "1989"
+    },
+    {
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "answer": "Michelangelo",
+      "options": ["Leonardo da Vinci", "Raphael", "Michelangelo", "Donatello"]
+    }
+  ]
+}

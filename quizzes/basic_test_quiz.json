@@ -1,0 +1,17 @@
+{
+  "quiz": [
+    {
+      "question": "What is 1 + 1?",
+      "answer": "2"
+    },
+    {
+      "question": "What color do you get when you mix red and blue?",
+      "answer": "Purple",
+      "options": ["Green", "Purple", "Orange", "Yellow"]
+    },
+    {
+      "question": "How many days are in a week?",
+      "answer": "7"
+    }
+  ]
+}

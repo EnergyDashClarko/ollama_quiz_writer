@@ -1,0 +1,27 @@
+{
+  "quiz": [
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answer": "Au",
+      "options": ["Go", "Gd", "Au", "Ag"]
+    },
+    {
+      "question": "How many bones are in the adult human body?",
+      "answer": "206"
+    },
+    {
+      "question": "What gas makes up about 78% of Earth's atmosphere?",
+      "answer": "Nitrogen",
+      "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"]
+    },
+    {
+      "question": "What is the speed of light in a vacuum?",
+      "answer": "299,792,458 meters per second"
+    },
+    {
+      "question": "Which planet has the most moons?",
+      "answer": "Saturn",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"]
+    }
+  ]
+}

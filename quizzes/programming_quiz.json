@@ -1,0 +1,27 @@
+{
+  "quiz": [
+    {
+      "question": "What does HTML stand for?",
+      "answer": "HyperText Markup Language",
+      "options": ["HyperText Markup Language", "High Tech Modern Language", "Home Tool Markup Language", "Hyperlink and Text Markup Language"]
+    },
+    {
+      "question": "Which programming language is known as the 'language of the web'?",
+      "answer": "JavaScript"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "answer": "Cascading Style Sheets",
+      "options": ["Computer Style Sheets", "Cascading Style Sheets", "Creative Style Sheets", "Colorful Style Sheets"]
+    },
+    {
+      "question": "Which symbol is used to denote comments in Python?",
+      "answer": "#",
+      "options": ["//", "#", "/*", "--"]
+    },
+    {
+      "question": "What is the file extension for Python files?",
+      "answer": ".py"
+    }
+  ]
+}

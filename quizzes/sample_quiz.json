@@ -1,0 +1,18 @@
+{
+  "quiz": [
+    {
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "options": ["London", "Berlin", "Paris", "Madrid"]
+    },
+    {
+      "question": "What is 2 + 2?",
+      "answer": "4"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"]
+    }
+  ]
+}

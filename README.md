@@ -98,6 +98,7 @@ Your bot needs the following permissions in your Discord server:
 #### Configuration Commands
 - `/help` - Display all available commands and current settings
 - `/set_questions <number>` - Set how many questions to use per quiz
+- `/set_timer <seconds>` - Set timer duration for each question (5-300 seconds)
 - `/random_order` - Toggle between random and sequential question order
 - `/ollama_mix` - LLM integration (currently disabled)
 
@@ -112,6 +113,7 @@ Your bot needs the following permissions in your Discord server:
 
 ```
 /set_questions 5          # Use 5 questions per quiz
+/set_timer 45             # Set 45 seconds per question
 /random_order             # Enable random question order
 /start                    # Start the quiz
 ```

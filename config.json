@@ -1,13 +1,13 @@
 {
   "bot": {
-    "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "token": "MTM5OTUzOTU2MTUxOTkxMDk4Mg.GsYKh6.wFLBESY7O89RYSHHZbeNMArFKrVHPvgpUUuSzM",
     "command_prefix": "!",
     "description": "Discord Quiz Bot - Interactive quiz sessions with timed questions"
   },
   "quiz": {
     "default_question_count": null,
     "default_random_order": false,
-    "default_timer_duration": 10,
+    "default_timer_duration": 30,
     "quiz_directory": "./quizzes/"
   },
   "logging": {

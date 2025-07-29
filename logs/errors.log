@@ -1,0 +1,132 @@
+2025-07-28 08:34:31,707 - src.bot - ERROR - Error during bot setup: Failed to initialize DataManager
+None
+2025-07-28 08:34:31,711 - src.bot - ERROR - Error in help command: 'NoneType' object has no attribute 'get_settings_summary'
+None
+2025-07-28 08:34:31,721 - src.bot - ERROR - Error in set_questions command (attempt 1): '<' not supported between instances of 'Mock' and 'int'
+None
+2025-07-28 08:34:31,722 - src.bot - ERROR - Error in set_questions command (attempt 1): '<' not supported between instances of 'Mock' and 'int'
+None
+2025-07-28 08:34:32,735 - src.bot - ERROR - Error in set_questions command (attempt 2): '<' not supported between instances of 'Mock' and 'int'
+None
+2025-07-28 08:34:32,736 - src.bot - ERROR - Error in set_questions command (attempt 2): '<' not supported between instances of 'Mock' and 'int'
+None
+2025-07-28 08:34:33,740 - src.bot - ERROR - Error in set_questions command (attempt 3): '<' not supported between instances of 'Mock' and 'int'
+None
+2025-07-28 08:34:33,741 - src.bot - ERROR - Error in set_questions command (attempt 3): '<' not supported between instances of 'Mock' and 'int'
+None
+2025-07-29 01:35:27,882 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:30,495 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:33,020 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:35,612 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:38,215 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:41,667 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:46,620 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:35:54,759 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:36:09,293 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:36:39,087 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:37:32,029 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:38:33,898 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 01:39:35,669 - src.bot - ERROR - Invalid bot token provided
+None
+2025-07-29 16:41:45,110 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,110 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,111 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,111 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,111 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid_structure.json
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid_structure.json
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,117 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid_structure.json
+None
+2025-07-29 16:41:45,118 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid_structure.json
+None
+2025-07-29 16:41:45,118 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmpsrxyjs5r\invalid_structure.json
+None
+2025-07-29 16:41:45,148 - src.data_manager - ERROR - Quiz file not found: test.json
+None
+2025-07-29 16:41:45,148 - src.data_manager - ERROR - Failed to read quiz file test.json: Permission denied
+None
+2025-07-29 16:41:45,149 - src.data_manager - ERROR - Failed to read quiz file test.json: OS error occurred
+None
+2025-07-29 16:41:45,149 - src.data_manager - ERROR - Invalid JSON in test.json: Invalid JSON: line 1 column 1 (char 0)
+None
+2025-07-29 16:41:45,200 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpl46jraz8\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,200 - src.data_manager - ERROR - No quiz files could be loaded successfully
+None
+2025-07-29 16:41:45,203 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmp6yqvcb3f\invalid_quiz.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,203 - src.data_manager - ERROR - No quiz files could be loaded successfully
+None
+2025-07-29 16:41:45,206 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,206 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmp4kbkmas_\invalid_structure.json
+None
+2025-07-29 16:41:45,206 - src.data_manager - ERROR - No quiz files could be loaded successfully
+None
+2025-07-29 16:41:45,209 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmp3ttufssu\invalid_quiz.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,222 - src.data_manager - ERROR - Quiz file not found: C:\Users\filik\AppData\Local\Temp\tmpml2uucc1\missing.json
+None
+2025-07-29 16:41:45,227 - src.data_manager - ERROR - Invalid JSON in C:\Users\filik\AppData\Local\Temp\tmpy9gtt4zn\invalid.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+None
+2025-07-29 16:41:45,228 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,228 - src.data_manager - ERROR - Invalid quiz structure in C:\Users\filik\AppData\Local\Temp\tmpy9gtt4zn\invalid_structure.json
+None
+2025-07-29 16:41:45,271 - src.data_manager - ERROR - Quiz array cannot be empty
+None
+2025-07-29 16:41:45,273 - src.data_manager - ERROR - Question 0 'question' field must be a string
+None
+2025-07-29 16:41:45,273 - src.data_manager - ERROR - Question 0 'answer' field must be a string
+None
+2025-07-29 16:41:45,274 - src.data_manager - ERROR - Question 0 'options' field must be an array
+None
+2025-07-29 16:41:45,276 - src.data_manager - ERROR - Question 0 missing 'answer' field
+None
+2025-07-29 16:41:45,277 - src.data_manager - ERROR - Question 0 missing 'question' field
+None
+2025-07-29 16:41:45,278 - src.data_manager - ERROR - Quiz data must contain a 'quiz' key
+None
+2025-07-29 16:41:45,279 - src.data_manager - ERROR - 'quiz' value must be an array
+None
+2025-07-29 16:41:45,299 - src.config_manager - ERROR - Question count must be at least 1
+None
+2025-07-29 16:41:50,727 - src.quiz_controller - ERROR - Failed to create session for channel 12345: Quiz not found
+None
+2025-07-29 16:41:50,728 - src.quiz_controller - ERROR - Failed to create session for channel 12345: No questions found for quiz: empty_quiz
+None
+2025-07-29 16:41:50,775 - src.quiz_controller - ERROR - Failed to create session for channel 12345: No questions found for quiz: test_quiz
+None
+2025-07-29 16:41:50,776 - src.quiz_controller - ERROR - Failed to start quiz 'test_quiz' for channel 12345
+None
+2025-07-29 16:41:59,082 - src.quiz_engine - ERROR - Error during timer cleanup for channel test_channel_123: 'test_channel_123'
+None
