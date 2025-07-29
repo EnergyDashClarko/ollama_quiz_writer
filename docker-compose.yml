@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  discord-quiz-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: discord-quiz-bot
+    restart: unless-stopped
+    environment:
+      # Discord bot token - REQUIRED
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+      # Optional: Override default settings
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Mount quiz files directory for easy updates
+      - ./quizzes:/app/quizzes:ro
+      # Mount logs directory for persistence
+      - ./logs:/app/logs
+      # Mount config for customization (optional)
+      - ./config.json:/app/config.json:ro
+    networks:
+      - quiz-bot-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    # Health check
+    healthcheck:
+      test: ["CMD", "pgrep", "-f", "python.*main.py"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+networks:
+  quiz-bot-network:
+    driver: bridge

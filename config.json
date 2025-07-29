@@ -1,0 +1,26 @@
+{
+  "bot": {
+    "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "command_prefix": "!",
+    "description": "Discord Quiz Bot - Interactive quiz sessions with timed questions"
+  },
+  "quiz": {
+    "default_question_count": null,
+    "default_random_order": false,
+    "default_timer_duration": 10,
+    "quiz_directory": "./quizzes/"
+  },
+  "logging": {
+    "level": "INFO",
+    "log_directory": "./logs/",
+    "max_log_files": 5,
+    "max_log_size_mb": 10
+  },
+  "discord": {
+    "intents": {
+      "message_content": true,
+      "guilds": true
+    },
+    "sync_commands_on_startup": true
+  }
+}

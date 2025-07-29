@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  discord-quiz-bot:
+    # Production-specific overrides
+    restart: always
+    environment:
+      # Production environment variables
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+      - PYTHONUNBUFFERED=1
+      # Optional: Set timezone
+      - TZ=${TZ:-UTC}
+    volumes:
+      # Read-only mounts for security
+      - ./quizzes:/app/quizzes:ro
+      - ./config.json:/app/config.json:ro
+      # Persistent logs
+      - quiz-bot-logs:/app/logs
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+    # Resource limits for production
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
+        reservations:
+          cpus: '0.1'
+          memory: 64M
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    tmpfs:
+      - /tmp
+    # Health check with longer intervals for production
+    healthcheck:
+      test: ["CMD", "pgrep", "-f", "python.*main.py"]
+      interval: 60s
+      timeout: 15s
+      retries: 3
+      start_period: 30s
+
+volumes:
+  quiz-bot-logs:
+    driver: local

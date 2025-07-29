@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  discord-quiz-bot-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: discord-quiz-bot-dev
+    restart: "no"  # Don't auto-restart in development
+    environment:
+      # Discord bot token - REQUIRED
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN}
+      # Development settings
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+    volumes:
+      # Mount source code for live development
+      - ./src:/app/src
+      - ./main.py:/app/main.py
+      - ./quizzes:/app/quizzes
+      - ./logs:/app/logs
+      - ./config.json:/app/config.json
+      # Mount tests for development
+      - ./tests:/app/tests
+    networks:
+      - quiz-bot-dev-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "5m"
+        max-file: "2"
+    # Override command for development (optional)
+    # command: ["python", "-u", "main.py"]
+    
+    # Development tools container (optional)
+  quiz-bot-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: quiz-bot-tools
+    restart: "no"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+    networks:
+      - quiz-bot-dev-network
+    # Override entrypoint for tools/testing
+    entrypoint: ["tail", "-f", "/dev/null"]
+    profiles:
+      - tools
+
+networks:
+  quiz-bot-dev-network:
+    driver: bridge
