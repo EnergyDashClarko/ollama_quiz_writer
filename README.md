@@ -2,6 +2,7 @@
 
 An interactive Discord bot that conducts timed quizzes using questions from JSON files. Perfect for educational servers, trivia nights, or just having fun with friends!
 
+
 ## Features
 
 - 🎯 **Interactive Quizzes**: Timed questions with automatic answer reveals
@@ -12,6 +13,11 @@ An interactive Discord bot that conducts timed quizzes using questions from JSON
 - 🎮 **Session Control**: Start, stop, pause, and resume quizzes
 - 📊 **Status Tracking**: Monitor quiz progress and settings
 - 🛡️ **Error Handling**: Graceful handling of invalid files and network issues
+
+## Features in development
+
+- **Ollama integration to connect with your local AI**
+- **Automatic flow to create, verify, store and relise new quiz files based on user's input (theme, tone)**
 
 ## Quick Start
 
@@ -334,4 +340,5 @@ This project is open source. See the LICENSE file for details.
 For support, please:
 1. Check this README and troubleshooting section
 2. Review the log files for error details
+
 3. Open an issue on the project repository
