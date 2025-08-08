@@ -1,6 +1,6 @@
 {
   "bot": {
-    "token": "MTM5OTUzOTU2MTUxOTkxMDk4Mg.GsYKh6.wFLBESY7O89RYSHHZbeNMArFKrVHPvgpUUuSzM",
+    "token": "put_your_discord_bot_token_here",
     "command_prefix": "!",
     "description": "Discord Quiz Bot - Interactive quiz sessions with timed questions"
   },
@@ -23,4 +23,5 @@
     },
     "sync_commands_on_startup": true
   }
+
 }
